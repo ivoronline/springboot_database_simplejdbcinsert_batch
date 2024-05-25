@@ -28,7 +28,7 @@ public class MyService {
       .usingGeneratedKeyColumns("ID");
 
     //SET PARAMETERS
-    List<Map<String, Object>> recordsList = new ArrayList<>();  //LinkedList
+    List<Map<String, Object>> recordsList = new ArrayList<>();     //LinkedList
     for (PersonDTO dto : dtoList) {
       Map<String, Object> record = new HashMap<>();
                           record.put("NAME", dto.getName());
